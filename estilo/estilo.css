@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-family: Outfit;
+}
+
+.texto-principal-edit{
+    margin: 15px;
+    font-size: 14px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.alinha-coluna {
+    flex-direction: column;
+}
+
+.alinha-texto {
+    width: 85%;
+    margin-left: 25px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.alinha-caixa-centro {
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-principal {
+    background: hsl(216, 50%, 16%);
+    width: 300px;
+    justify-content: center;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.tamanho-imagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 25px 25px 20px 25px;
+}
+
+.logo-enthe {
+    width: 11px;
+    height: 18px;
+    margin: 0 7px 0 27px;
+}
+
+.logo-relogio {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+.texto-secun {
+    font-size: 11px;
+}
+
+.texto-relogio {
+    font-size: 14px;
+}
+
+.margem-relogio {
+    margin-right: 27px;
+}
+
+.linha {
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 80%;
+    margin: 15px auto 15px auto;
+}
+
+.imagem-avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 180px;
+    margin-left: 27px;
+}
+
+.alinha-centro {
+    align-items: center;
+}
+
+.texto-avatar {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.caixa-terciaria {
+    margin-bottom: 25px;
+}
+
+.branco {
+    color: hsl(0, 0%, 100%)
+}
+
+.soft-blue {
+    color: hsl(215, 51%, 70%);
+}
+
+.ciano {
+    color: hsl(178, 100%, 50%);
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
